@@ -1,0 +1,7 @@
+﻿  bubble_sort_parallel.cpp
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bubble_sort_parallel\bubble_sort_parallel\bubble_sort_parallel.cpp(110,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  bubble_sort_parallel.vcxproj -> F:\My Programs\c_programs\open_mp\algorithms_group_proj\bubble_sort_parallel\Debug\bubble_sort_parallel.exe

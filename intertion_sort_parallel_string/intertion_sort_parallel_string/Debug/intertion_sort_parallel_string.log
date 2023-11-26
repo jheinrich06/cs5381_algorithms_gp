@@ -1,0 +1,7 @@
+﻿  intertion_sort_parallel_string.cpp
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\intertion_sort_parallel_string\intertion_sort_parallel_string\intertion_sort_parallel_string.cpp(124,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  intertion_sort_parallel_string.vcxproj -> F:\My Programs\c_programs\open_mp\algorithms_group_proj\intertion_sort_parallel_string\Debug\intertion_sort_parallel_string.exe

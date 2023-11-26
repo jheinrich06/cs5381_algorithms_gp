@@ -1,0 +1,7 @@
+﻿  radix_sort_serial.cpp
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\radix_sort_serial\radix_sort_serial\radix_sort_serial.cpp(76,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  radix_sort_serial.vcxproj -> F:\My Programs\c_programs\open_mp\algorithms_group_proj\radix_sort_serial\Debug\radix_sort_serial.exe

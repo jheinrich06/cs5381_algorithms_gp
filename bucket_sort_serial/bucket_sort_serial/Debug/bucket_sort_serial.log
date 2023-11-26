@@ -1,0 +1,7 @@
+﻿  bucket_sort_serial.cpp
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bucket_sort_serial\bucket_sort_serial\bucket_sort_serial.cpp(160,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  bucket_sort_serial.vcxproj -> F:\My Programs\c_programs\open_mp\algorithms_group_proj\bucket_sort_serial\Debug\bucket_sort_serial.exe

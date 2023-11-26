@@ -1,0 +1,7 @@
+﻿  bucket_sort_parallel.cpp
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bucket_sort_parallel\bucket_sort_parallel\bucket_sort_parallel.cpp(123,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  bucket_sort_parallel.vcxproj -> F:\My Programs\c_programs\open_mp\algorithms_group_proj\bucket_sort_parallel\Debug\bucket_sort_parallel.exe
