@@ -1,5 +1,15 @@
 ﻿  bubble_sort_serial_string.cpp
-F:\My Programs\c_programs\open_mp\algorithms_group_proj\bubble_sort_serial_string\bubble_sort_serial_string\bubble_sort_serial_string.cpp(48,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bubble_sort_serial_string\bubble_sort_serial_string\bubble_sort_serial_string.cpp(95,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bubble_sort_serial_string\bubble_sort_serial_string\bubble_sort_serial_string.cpp(113,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bubble_sort_serial_string\bubble_sort_serial_string\bubble_sort_serial_string.cpp(124,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
           with
           [
               _Rep=__int64

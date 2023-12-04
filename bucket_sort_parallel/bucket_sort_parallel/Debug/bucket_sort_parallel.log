@@ -1,5 +1,25 @@
 ﻿  bucket_sort_parallel.cpp
-F:\My Programs\c_programs\open_mp\algorithms_group_proj\bucket_sort_parallel\bucket_sort_parallel\bucket_sort_parallel.cpp(123,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bucket_sort_parallel\bucket_sort_parallel\bucket_sort_parallel.cpp(188,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bucket_sort_parallel\bucket_sort_parallel\bucket_sort_parallel.cpp(202,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bucket_sort_parallel\bucket_sort_parallel\bucket_sort_parallel.cpp(213,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bucket_sort_parallel\bucket_sort_parallel\bucket_sort_parallel.cpp(224,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bucket_sort_parallel\bucket_sort_parallel\bucket_sort_parallel.cpp(235,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
           with
           [
               _Rep=__int64

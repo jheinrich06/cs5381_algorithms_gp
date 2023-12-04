@@ -3,11 +3,14 @@
 
 #include <iostream>
 #include <chrono>
+#include <vector>
+#include <algorithm>
+#include <random>
 
 using namespace std;
 
 // Function Def
-void bubbleSort(string arr[], int n)
+void bubbleSort(vector<string>& arr, int n)
 {
     int i, j;
     string value;
@@ -24,7 +27,7 @@ void bubbleSort(string arr[], int n)
 }
 
 // Print Array
-void printArrayAndTimeElapsed(string arr[], int n, float elapsed)
+void printArrayAndTimeElapsed(vector<string> arr, int n, float elapsed)
 {
     int i;
     for (i = 0; i < n; i++)
@@ -36,18 +39,99 @@ void printArrayAndTimeElapsed(string arr[], int n, float elapsed)
         << " nanoseconds";
 }
 
+// Function to generate alphanumeric lists
+std::vector<std::string> generateAlphanumericLists(int size, int val_size) {
+    std::vector<std::string> alphanumericLists;
+    std::string chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<> dis(0, chars.size() - 1);
+
+    for (int i = 0; i < size; ++i) {
+        std::string randomString;
+        for (int j = 0; j < val_size; ++j) { // Change the length of the strings as needed
+            randomString += chars[dis(gen)];
+        }
+        alphanumericLists.push_back(randomString);
+    }
+
+    return alphanumericLists;
+}
+
 // Driver code
 int main()
 {
-    string arr[] = { "8", "15", "10", "13", "0",  "110", "11", "3", "5", "6" };
-    int length_arr = sizeof(arr) / sizeof(arr[0]);
+
+    /*
+    //Correctness tests
+    vector<string> arr = { "8", "15", "10", "13", "0",  "110", "11", "3", "5", "6" };
+    int length_arr = arr.size();
 
     auto start = chrono::steady_clock::now();
     bubbleSort(arr, length_arr);
     auto end = chrono::steady_clock::now();
     float elapsed = chrono::duration_cast<chrono::nanoseconds>(end - start).count();
     printArrayAndTimeElapsed(arr, length_arr, elapsed);
+    */
+    
+    // sequentially run time tests
+    vector <float> result_times = {};
+    vector<vector<float>> list_of_result_times = {};
 
+    vector<int> n_values = { 100 , 1000, 10000, 100000
+    };
+    int char_len_short = 7;
+    int char_len_long = 14;
+
+    //100 series
+    std::vector<string> randomChars_gen_small = generateAlphanumericLists(n_values[0], char_len_short);
+    std::vector<string> randomChars_gen_large = generateAlphanumericLists(n_values[0], char_len_long);
+
+
+
+
+    auto start = chrono::steady_clock::now();
+    auto end = chrono::steady_clock::now();
+    float elapsed = chrono::duration_cast<chrono::nanoseconds>(end - start).count();
+    int n_length = n_values.size();
+
+    for (int i = 0; n_length - 1; i++) {
+        result_times = {};
+
+        randomChars_gen_small = generateAlphanumericLists(n_values[i], char_len_short);
+        randomChars_gen_large = generateAlphanumericLists(n_values[i], char_len_long);
+
+
+        int randomChars_gen_small_n = randomChars_gen_small.size();
+        int randomChars_gen_large_n = randomChars_gen_large.size();
+
+
+
+        start = chrono::steady_clock::now();
+        bubbleSort(randomChars_gen_small, randomChars_gen_small_n);
+        end = chrono::steady_clock::now();
+        elapsed = chrono::duration_cast<chrono::nanoseconds>(end - start).count();
+        //result_times.push_back(elapsed);
+        cout << "SmallChar ";
+        cout << n_values[i] << " ";
+        cout << elapsed << " ";
+        //printArrayAndTimeElapsed(randomNumbers_gen_small, randomNumbers_gen_small.size(), elapsed);
+
+
+        start = chrono::steady_clock::now();
+        bubbleSort(randomChars_gen_large, randomChars_gen_large_n);
+        end = chrono::steady_clock::now();
+        elapsed = chrono::duration_cast<chrono::nanoseconds>(end - start).count();
+        //result_times.push_back(elapsed);
+        cout << "LargeChar ";
+        cout << n_values[i] << " ";
+        cout << elapsed << " ";
+        //printArrayAndTimeElapsed(randomNumbers_gen_large, randomNumbers_gen_large.size(), elapsed);
+
+        //list_of_result_times.push_back(result_times);
+
+    }
+    
     return 0;
 }
 

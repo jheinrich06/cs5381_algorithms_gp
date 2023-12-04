@@ -1,5 +1,25 @@
 ﻿  insertion_sort_parallel.cpp
-F:\My Programs\c_programs\open_mp\algorithms_group_proj\insertion_sort_parallel\insertion_sort_parallel\insertion_sort_parallel.cpp(122,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\insertion_sort_parallel\insertion_sort_parallel\insertion_sort_parallel.cpp(183,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\insertion_sort_parallel\insertion_sort_parallel\insertion_sort_parallel.cpp(203,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\insertion_sort_parallel\insertion_sort_parallel\insertion_sort_parallel.cpp(214,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\insertion_sort_parallel\insertion_sort_parallel\insertion_sort_parallel.cpp(225,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\insertion_sort_parallel\insertion_sort_parallel\insertion_sort_parallel.cpp(236,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
           with
           [
               _Rep=__int64

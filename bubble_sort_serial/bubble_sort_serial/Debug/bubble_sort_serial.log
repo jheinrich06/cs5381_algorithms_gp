@@ -1,5 +1,25 @@
 ﻿  bubble_sort_serial.cpp
-F:\My Programs\c_programs\open_mp\algorithms_group_proj\bubble_sort_serial\bubble_sort_serial\bubble_sort_serial.cpp(47,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bubble_sort_serial\bubble_sort_serial\bubble_sort_serial.cpp(106,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bubble_sort_serial\bubble_sort_serial\bubble_sort_serial.cpp(120,27): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bubble_sort_serial\bubble_sort_serial\bubble_sort_serial.cpp(130,84): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bubble_sort_serial\bubble_sort_serial\bubble_sort_serial.cpp(140,84): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\bubble_sort_serial\bubble_sort_serial\bubble_sort_serial.cpp(150,84): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
           with
           [
               _Rep=__int64

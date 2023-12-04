@@ -1,5 +1,25 @@
 ﻿  insertion_sort_serial.cpp
-F:\My Programs\c_programs\open_mp\algorithms_group_proj\insertion_sort_serial\insertion_sort_serial\insertion_sort_serial.cpp(46,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\insertion_sort_serial\insertion_sort_serial\insertion_sort_serial.cpp(103,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\insertion_sort_serial\insertion_sort_serial\insertion_sort_serial.cpp(117,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\insertion_sort_serial\insertion_sort_serial\insertion_sort_serial.cpp(128,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\insertion_sort_serial\insertion_sort_serial\insertion_sort_serial.cpp(139,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\insertion_sort_serial\insertion_sort_serial\insertion_sort_serial.cpp(150,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
           with
           [
               _Rep=__int64

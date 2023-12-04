@@ -1,5 +1,25 @@
 ﻿  radix_sort_serial.cpp
-F:\My Programs\c_programs\open_mp\algorithms_group_proj\radix_sort_serial\radix_sort_serial\radix_sort_serial.cpp(76,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\radix_sort_serial\radix_sort_serial\radix_sort_serial.cpp(135,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\radix_sort_serial\radix_sort_serial\radix_sort_serial.cpp(155,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\radix_sort_serial\radix_sort_serial\radix_sort_serial.cpp(166,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\radix_sort_serial\radix_sort_serial\radix_sort_serial.cpp(177,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\radix_sort_serial\radix_sort_serial\radix_sort_serial.cpp(188,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
           with
           [
               _Rep=__int64

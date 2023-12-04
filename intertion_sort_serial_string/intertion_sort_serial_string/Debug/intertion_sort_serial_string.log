@@ -1,5 +1,15 @@
 ﻿  intertion_sort_serial_string.cpp
-F:\My Programs\c_programs\open_mp\algorithms_group_proj\intertion_sort_serial_string\intertion_sort_serial_string\intertion_sort_serial_string.cpp(47,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\intertion_sort_serial_string\intertion_sort_serial_string\intertion_sort_serial_string.cpp(93,19): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\intertion_sort_serial_string\intertion_sort_serial_string\intertion_sort_serial_string.cpp(111,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+F:\My Programs\c_programs\open_mp\algorithms_group_proj\intertion_sort_serial_string\intertion_sort_serial_string\intertion_sort_serial_string.cpp(122,80): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
           with
           [
               _Rep=__int64
